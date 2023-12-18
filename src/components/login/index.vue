@@ -288,7 +288,7 @@ watch(
 
 <style scoped lang="scss">
 .login_container {
-  ::v-deep(.el-dialog__body) {
+  :deep(.el-dialog__body) {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
   }

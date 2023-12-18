@@ -414,7 +414,7 @@ onMounted(() => geiallstates());
   }
 }
 
-::v-deep(.el-dialog__body) {
+:deep(.el-dialog__body) {
   border-top: 1px solid #7f7f7f;
   border-bottom: 1px solid #7f7f7f;
 }

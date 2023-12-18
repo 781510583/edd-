@@ -45,7 +45,7 @@ function handleSelect(e) {
   display: flex;
   justify-content: center;
 
-  ::v-deep .inline-input {
+  :deep(.inline-input) {
     width: 700px;
     margin-right: 20px;
   }

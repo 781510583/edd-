@@ -53,7 +53,7 @@
     </div>
     <!-- 医院介绍 -->
     <div class="footer">
-      <h1>医院介绍:{{ hospitalStore.hospitalinfo.hospital?.intro}}</h1>
+      <h1 style="font-size: 18px;line-height: 25px;">医院介绍:{{ hospitalStore.hospitalinfo.hospital?.intro}}</h1>
       <p>
      
       </p>
